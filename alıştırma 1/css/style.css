@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+.haber-col{
+	margin-bottom:30px;
+	border:1px dotted #B4b4b4;}
+.haber-gorsel{
+	display:block;
+	overflow:hidden;}	
+.haber-gorsel img{ width:100%; margin-top:15px;}	
+.haber-gorsel img:hover{transform:scale(1.5);transition: all ease.5s; cursor:pointer;}
+.haber-col h3{
+	color:#c00;
+	margin-top:5px;
+	margin-bottom:5px;
+	font-family: 'Lato', sans-serif;}
+.haber-info{
+	font-size:12px;
+	text-align:justify;
+	margin-bottom:15px;
+	display:block;
+	}
