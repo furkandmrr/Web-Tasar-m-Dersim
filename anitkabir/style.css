@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* CSS Reset */
+
+.temizle{ Clear:both;}
+
+
+
+
+#header{background-color:#DCC69A; height:100px; }
+#header #iskelet a{color:#fff; text-decoration:none; position: relative; top: 45px; left:20px; word-spacing: 15px;  } 
+#header #iskelet a:hover{color:#000;  transition: 1s ease;}
+
+body{background:#F8EAD0;font-family: 'Quicksand', sans-serif; }
+
+#iskelet{width:1200px; margin-right:auto; margin-left:auto;  }
+
+.logo{float:left; }
+.logo img{width:400px; margin-top: -30px; position: relative; right:25px; }
+
+
+.logo-orta img{float: right; width:110px; margin-right:20px; }
+
+#ana-resim img{width:100%;  }
+
+#alt-resimler{background-color:#0A4617; }
+#alt-resimler img{  float: left;  margin-bottom: 25px; }
+
+#resim-1{position: relative; top: 120px; float: left;text-align: center; margin-left: 5px;}
+#resim-2{position: relative; top: 120px; float: left;text-align: center; margin-left:5px;}
+#resim-3{position: relative; top: 120px; float: left;text-align: center;  margin-left:5px;}
+#resim-4{position: relative; top: 120px; float: left;text-align: center; margin-left:5px; }
+#resim-5{position: relative; top: 120px; float: left;text-align: center; margin-left:5px;}
+#resim-6{position: relative; top: 120px; float: left;text-align: center; margin-left:5px;}
+
+#resim-1 img{border:7px solid  #af986d;  border-radius: 50%;; margin-left: 40px;  }
+#resim-2 img{border:7px solid  #af986d;  border-radius: 50%;margin-left: 15px;  }
+#resim-3 img{border:7px solid  #af986d;  border-radius: 50%;margin-left: 10px; }
+#resim-4 img{border:7px solid  #af986d; border-radius: 50%;margin-left: 8px;}
+#resim-5 img{border:7px solid  #af986d; border-radius: 50%;margin-left: 40px;}
+#resim-6 img{border:7px solid  #af986d; border-radius: 50%;  margin-left: 10px;}
+
+
+.resim{margin-right: 15px; margin-left: 65px; }
+
+#footer{margin-top: 400px; width:100%; height:150px;   background-color:#E0CAA5; text-decoration: none; margin-bottom:5px;  }
+.iletişim{float:left; margin-top:85px; font-size:18px; border-radius: 25px;   }
+
+#footer img{width:370px;  margin-left:350px;   } 
+
+
