@@ -1,0 +1,35 @@
+html{
+    background-image: url(/image/right-sider-banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body{
+    background:transparent !important;
+}
+.teambox{
+   
+    text-align: center;
+ 
+}
+.teambox img{
+    border-radius: 100%;
+}
+
+.row h1{
+    color: #fff;
+    text-align:center;
+    padding: 60px 0px;   
+}
+
+.teambox i{
+    color: #676767;
+    padding: 20px 0px;
+}
+.icerikler{
+    background-color: #fff;
+    text-align: center !important;
+    display: inline-block;
+
+
+}
